@@ -1,6 +1,9 @@
 <head>
+	<meta charset="utf-8"/>
 	<title>Peter Spenler</title>
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<script src="scripts/index.js"></script>
 </head>
 <body>
 	<div class="profile-box">
@@ -10,6 +13,11 @@
 			<h4>Undergraduate</h4> <h3>Computer Engineering</h3>
 			<h4>University of Guelph</h4>
 		</div>
-		<a href="https://github.com/peterspenler"> <div class="github-mark"></div> </a>
+
+		<div class="phone-number-box" id="phoneNumberBox" onClick="stopPropagation(event)">416-555-1234</div>
+		<!-- Phone and mail icons created by 'Chanut is Industries', https://www.flaticon.com/authors/chanut-is-industries, Liscenced under Creative Commons 3.0 -->
+		<div id="phoneIcon" class="phone-icon" onClick="phoneClick(event)"></div>
+		<a href="mailto:peterspenler@gmail.com" target="_top" class="mail-icon"></a>
+		<a href="https://github.com/peterspenler" class="github-mark"></a>
 	</div>
 </body>
