@@ -13,6 +13,8 @@ body{
 	background-color: #69a2b0;
 	color: #f7f4f3;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	opacity:0;
+	-webkit-transition: opacity 0.4s;
 }
 
 .profile-text-box{
