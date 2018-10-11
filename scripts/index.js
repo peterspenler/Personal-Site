@@ -1,10 +1,13 @@
-window.onload = function(){
+document.onload = function(){
 	var phoneIcon = document.getElementById('phoneIcon')
 	var phoneNumberBox = document.getElementById('phoneNumberBox')
 	var profileBox = document.getElementById('profileBox')
-	profileBox.style.opacity = "1";
-	console.log("done")
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+   profileBox.style.opacity = "1";
+	console.log("done")
+}, false);
 
 phoneClicked = false;
 function phoneClick(event){
