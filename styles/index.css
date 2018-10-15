@@ -197,10 +197,11 @@ h3{
 
 	.mobile-contact-box{
 		clear:both;
-		padding-top:30px;
+		padding-top:50px;
 	}
 
 	.phone-box{
+		font-family: 'Nunito', sans-serif;
 		margin-top:10px;
 		clear:both;
 		width:60%;
@@ -213,6 +214,7 @@ h3{
 	}
 
 	.email-box{
+		font-family: 'Nunito', sans-serif;
 		margin-top:10px;
 		clear:both;
 		width:60%;
@@ -225,6 +227,7 @@ h3{
 	}
 
 	.github-box{
+		font-family: 'Nunito', sans-serif;
 		margin-top:10px;
 		clear:both;
 		width:60%;
