@@ -55,6 +55,7 @@ body{
 }
 
 .phone-icon{
+	display: none;
 	background-image: url(../src/Phone.png);
 	background-color: #69a2b0;
 	background-size: 100%;
@@ -67,10 +68,11 @@ body{
 }
 
 .phone-number-box{
+	display: none;
 	color:#080b0c;
 	background-color:#f7f4f3;
 	overflow: hidden;
-	display:inline-block;
+	//display:inline-block;
 	padding:7px 12px;
 	font-family: 'Nunito', serif;
 	font-weight: bold;
@@ -201,11 +203,12 @@ h3{
 	}
 
 	.phone-box{
+		display:none;
 		font-family: 'Nunito', sans-serif;
 		margin-top:10px;
 		clear:both;
 		width:60%;
-		display:block;
+		//display:block;
 		padding:10px 30px;
 		margin-left:auto;
 		margin-right:auto;
