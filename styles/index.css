@@ -131,6 +131,7 @@ h3{
 	}
 
 	.profile-text-box{
+		display:inline-block;
 		float:right;
 		clear:none;
 		font-family: 'Nunito', sans-serif;
@@ -138,6 +139,7 @@ h3{
 		top: 0;
 		left: 44%;
 		margin-right:10px;
+		height:46%;
 	}
 
 	.github-mark{
@@ -193,6 +195,11 @@ h3{
 		margin-right:10px;
 	}
 
+	.mobile-contact-box{
+		clear:both;
+		padding-top:30px;
+	}
+
 	.phone-box{
 		margin-top:10px;
 		clear:both;
@@ -218,7 +225,7 @@ h3{
 	}
 
 	.github-box{
-		margin-top:350px;
+		margin-top:10px;
 		clear:both;
 		width:60%;
 		display:block;
