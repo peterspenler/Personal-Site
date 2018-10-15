@@ -14,7 +14,7 @@ body{
 	color: #f7f4f3;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	opacity:0;
-	-webkit-transition: opacity 0.4s;
+	-webkit-transition: opacity 0.4s, height 0.3s, width 0.3s;
 }
 
 .profile-text-box{
@@ -83,6 +83,18 @@ body{
 	-webkit-transition: box-shadow 0.3s, width 0.3s, right 0.3s;
 }
 
+.phone-box{
+	display:none;
+}
+
+.email-box{
+	display:none;
+}
+
+.github-box{
+	display:none;
+}
+
 h1{
 	font-size: 3em;
 	margin-bottom: -10px;
@@ -91,4 +103,129 @@ h1{
 h3{
 	margin-top: -26px;
 	margin-bottom:-10px;
+}
+
+@media (max-width: 800px){
+	.profile-box{
+		height:100%;
+		width: 100%;
+		margin:0px;
+		overflow: hidden;
+		position: absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background-color: #69a2b0;
+		color: #f7f4f3;
+		-webkit-transition:height 0.3s, width 0.3s;
+	}
+
+	.profile-image{
+		object-fit:cover;
+		margin-top:-10%; 
+		height:46%;
+		width:40%;
+		float: left;
+		margin-right: 14px;
+	}
+
+	.profile-text-box{
+		float:right;
+		clear:none;
+		font-family: 'Nunito', sans-serif;
+		position: absolute;
+		top: 0;
+		left: 44%;
+		margin-right:10px;
+	}
+
+	.github-mark{
+		display:none;
+	}
+
+	.mail-icon{
+		display:none;
+	}
+
+	.phone-icon{
+		display:none;
+	}
+
+	.phone-number-box{
+		display:none;
+	}
+
+	.github-mark-m{
+		background-image: url(../src/GitHub-Mark.png);
+		background-size: 95%;
+		background-repeat: no-repeat;
+		float:left;
+		z-index: 100;
+		height:36px;
+		width:36px;
+		margin-top:-8px;
+		margin-left:-28px;
+		margin-right:10px;
+	}
+
+	.mail-icon-m{
+		background-image: url(../src/Mail.png);
+		background-size: 100%;
+		float:left;
+		z-index: 100;
+		height:39px;
+		width:39px;
+		margin-top:-10px;
+		margin-left:-30px;
+		margin-right:10px;
+	}
+
+	.phone-icon-m{
+		background-image: url(../src/Phone.png);
+		background-size: 100%;
+		float:left;
+		z-index: 100;
+		height:39px;
+		width:39px;
+		margin-top:-10px;
+		margin-left:-30px;
+		margin-right:10px;
+	}
+
+	.phone-box{
+		margin-top:10px;
+		clear:both;
+		width:60%;
+		display:block;
+		padding:10px 30px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color: white;
+		color:black;
+	}
+
+	.email-box{
+		margin-top:10px;
+		clear:both;
+		width:60%;
+		display:block;
+		padding:10px 30px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color: white;
+		color:black;
+	}
+
+	.github-box{
+		margin-top:300px;
+		clear:both;
+		width:60%;
+		display:block;
+		padding:10px 30px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color: white;
+		color:black;
+	}
 }
