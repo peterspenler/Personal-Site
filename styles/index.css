@@ -54,41 +54,6 @@ body{
 	right:8;
 }
 
-.phone-icon{
-	display: none;
-	background-image: url(../src/Phone.png);
-	background-color: #69a2b0;
-	background-size: 100%;
-	height:36px;
-	width: 36px;
-	position:absolute;
-	bottom:106;
-	right:8;
-	-webkit-transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-.phone-number-box{
-	display: none;
-	color:#080b0c;
-	background-color:#f7f4f3;
-	overflow: hidden;
-	//display:inline-block;
-	padding:7px 12px;
-	font-family: 'Nunito', serif;
-	font-weight: bold;
-	position:absolute;
-	bottom:106;
-	right:20;
-	width:0px;
-	height:22px;
-	white-space: nowrap;
-	-webkit-transition: box-shadow 0.3s, width 0.3s, right 0.3s;
-}
-
-.phone-box{
-	display:none;
-}
-
 .email-box{
 	display:none;
 }
@@ -152,14 +117,6 @@ h3{
 		display:none;
 	}
 
-	.phone-icon{
-		display:none;
-	}
-
-	.phone-number-box{
-		display:none;
-	}
-
 	.github-mark-m{
 		background-image: url(../src/GitHub-Mark.png);
 		background-size: 95%;
@@ -185,35 +142,9 @@ h3{
 		margin-right:10px;
 	}
 
-	.phone-icon-m{
-		background-image: url(../src/Phone.png);
-		background-size: 100%;
-		float:left;
-		z-index: 100;
-		height:39px;
-		width:39px;
-		margin-top:-10px;
-		margin-left:-30px;
-		margin-right:10px;
-	}
-
 	.mobile-contact-box{
 		clear:both;
 		padding-top:50px;
-	}
-
-	.phone-box{
-		display:none;
-		font-family: 'Nunito', sans-serif;
-		margin-top:10px;
-		clear:both;
-		width:60%;
-		//display:block;
-		padding:10px 30px;
-		margin-left:auto;
-		margin-right:auto;
-		background-color: white;
-		color:black;
 	}
 
 	.email-box{
