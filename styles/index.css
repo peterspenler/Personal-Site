@@ -55,6 +55,7 @@ body{
 	height:30px;
 	width: 30px;
 	position:absolute;
+	display: block;
 	bottom:10;
 	right:10;
 	opacity: 100;
@@ -105,6 +106,7 @@ body{
 }
 
 .mobile-contact-box{
+	height:0;
 	opacity: 0;
 	-webkit-transition: opacity 0.5s;
 	-moz-transition: opacity 0.5s;
@@ -209,6 +211,7 @@ a{
 	}
 
 	.mobile-contact-box{
+		height:100%;
 		clear:both;
 		opacity: 100;
 		padding-top:14px;
