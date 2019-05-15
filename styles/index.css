@@ -1,5 +1,5 @@
 body{
-	background-color:#d5c7bc; 
+	background-color:#d5c7bc;
 }
 
 .profile-box{
@@ -136,6 +136,7 @@ a{
 		position: absolute;
 		margin-left: 0;
 		left:0;
+		padding-bottom:14px;
 	}
 
 	.profile-image{
@@ -154,6 +155,7 @@ a{
 		top: 0;
 		left: 200;
 		width: 180px;
+		font-size:0.9em;
 		-webkit-transition:top 0.5s, left 0.5s;
 		-moz-transition:top 0.5s, left 0.5s;
 		-ms-transition:top 0.5s, left 0.5s;
@@ -229,5 +231,23 @@ a{
 		-ms-transition: opacity 0.5s;
 		-o-transition: opacity 0.5s;
 		transition: opacity 0.5s;
+	}
+}
+
+@media (max-width:370px){
+	.profile-box{
+		margin-top: -170px;
+		height:auto;
+	}
+	.profile-image{
+		width:140px;
+		height:140px;
+	}
+	.profile-text-box{
+		left:150;
+		font-size:0.8em;
+	}
+	.mobile-box{
+		font-size:0.8em;
 	}
 }
